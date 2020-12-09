@@ -6,10 +6,10 @@
         menu
       </span>
    </div>
-    <div class="text-gray-400 my-2 sm:my-0 sm:flex flex-col sm:w-1/4 sm:flex-row sm:justify-between" :class="open ? 'flex' : 'hidden'">
-      <nuxt-link to="/" class="">Home</nuxt-link>
-      <nuxt-link to="/goods" class="">Goods</nuxt-link>
-      <nuxt-link to="/about" class="">About</nuxt-link>
+    <div class="text-gray-400 my-2 sm:my-0 sm:flex flex-col sm:flex-row sm:justify-between" :class="open ? 'flex' : 'hidden'">
+      <nuxt-link to="/" class="mr-12">Home</nuxt-link>
+      <nuxt-link to="/goods" class="mr-12">Goods</nuxt-link>
+      <nuxt-link to="/about" class="mr-12">About</nuxt-link>
     </div>
   </div>
 </template>
