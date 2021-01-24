@@ -12,14 +12,13 @@
 </template>
 
 <script>
-import GoodsListItem from '@/components/GoodsListItem'
+import GoodsListItem from "@/components/GoodsListItem"
 export default {
   components: { GoodsListItem },
-  computed:{
-    list(){
+  computed: {
+    list() {
       return this.$store.state.list
-    }
-  }
- 
-  }
+    },
+  },
+}
 </script>
